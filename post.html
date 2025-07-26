@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="post.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>📚 My Dev Blog</h1>
+    <p>In‑depth articles for curious coders</p>
+  </header>
+
+  <main class="post-page-container">
+    <article class="full-post">
+      <img id="post-banner" alt="Post Banner" class="post-banner"/>
+      <h1 id="post-title" class="post-title"></h1>
+      <p id="post-meta" class="post-meta"></p>
+      <section id="post-body" class="post-body"></section>
+    </article>
+
+    <aside class="sidebar">
+      <h3>Related Posts</h3>
+      <ul id="related-posts"></ul>
+    </aside>
+
+    <section class="comments-section">
+      <h3>Comments</h3>
+      <ul id="comments-list"></ul>
+      <form id="comment-form">
+        <input type="text" id="comment-name" placeholder="Your Name" required/>
+        <textarea id="comment-text" placeholder="Your Comment" rows="3" required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 My Dev Blog | All rights reserved.</p>
+  </footer>
+</body>
+</html>
