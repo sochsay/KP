@@ -1,0 +1,26 @@
+[
+  {
+    "id": "123",
+    "title": "Getting Started with HTML",
+    "date": "June 18, 2025",
+    "author": "Admin",
+    "image": "https://source.unsplash.com/900x400/?html,code",
+    "content": "<p>Learn the basic structure of HTML documents and best practices.</p>"
+  },
+  {
+    "id": "124",
+    "title": "CSS Flexbox Mastery",
+    "date": "July 5, 2025",
+    "author": "Admin",
+    "image": "https://source.unsplash.com/900x400/?css,layout",
+    "content": "<p>Discover how to use Flexbox to build flexible, responsive layouts.</p>"
+  },
+  {
+    "id": "125",
+    "title": "JavaScript DOM Crash Course",
+    "date": "July 20, 2025",
+    "author": "Admin",
+    "image": "https://source.unsplash.com/900x400/?javascript,dom",
+    "content": "<p>Master DOM manipulation using vanilla JavaScript and build dynamic pages.</p>"
+  }
+]
